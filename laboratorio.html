@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Cadastro de laboratório</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <selection classs="content">
+        <div>
+            <h3>Cadastro de laboratório</h3>
+            <form class="form" method="POST" action="laboratorio.php">
+                <input class="field" name="laboratorio" placeholder="Insira o nome do laboratório">
+                <input class="field" name="capacidade" placeholder="Capacidade de alunos no laboratório">
+                <select class="selecao" name="tipo">
+                    <option value="" disabled selected>Selecione o tipo de laboratório</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Química">Química</option>
+                    <option value="Física">Física</option>
+                  </select>
+                
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </selection>
+</body>
+
+</html>
